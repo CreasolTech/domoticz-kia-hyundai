@@ -1,9 +1,10 @@
 This plugin is not being maintained anymore.
 
 
-# BlUVO
+# domoticz-kia-hyundai
  
-BlUvo Plugin
+Domoticz Kia UVO - Hyundai BlueLink Plugin
+
 An application or Domoticz plugin for Kia UVO and Hyundai Bluelink EV's (generally MY2020 and beyond). Use at own risk!
 
 More info at [Domoticz wiki page](https://www.domoticz.com/wiki/Vehicles_Hyundai_Kia).
