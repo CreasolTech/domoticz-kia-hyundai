@@ -1,0 +1,16 @@
+2021-06-03 12:10:43,993 - root - DEBUG - into Initialise
+2021-06-03 12:10:43,994 - root - DEBUG - forcedpoll: 7200.0, charging: 1800.0, heartbeat 1800.0
+2021-06-03 12:10:43,994 - root - INFO - entering login kia psubiaco@creasol.it
+2021-06-03 12:10:44,126 - root - DEBUG - constants fdc85c00-0a2f-4c64-bcb4-2cfb1500730a Basic ZmRjODVjMDAtMGEyZi00YzY0LWJjYjQtMmNmYjE1MDA3MzBhOnNlY3JldA== 693a33fa-c117-43f2-ae3b-61a02d24f417 prd.eu-ccapi.kia.com:8080 https://prd.eu-ccapi.kia.com:8080 9o3mpjuu/h4vH6cwbgTzPD70J+JaprZSWlyFNmfNg2qhql7gngJHhJp4D0YVSdM=
+2021-06-03 12:10:44,127 - root - INFO - session not read from file, full login
+2021-06-03 12:10:44,139 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): prd.eu-ccapi.kia.com:8080
+2021-06-03 12:10:44,563 - urllib3.connectionpool - DEBUG - https://prd.eu-ccapi.kia.com:8080 "GET /api/v1/user/oauth2/authorize?response_type=code&client_id=fdc85c00-0a2f-4c64-bcb4-2cfb1500730a&redirect_uri=https://prd.eu-ccapi.kia.com:8080/api/v1/user/oauth2/redirect&state=test&lang=en HTTP/1.1" 302 102
+2021-06-03 12:10:44,630 - urllib3.connectionpool - DEBUG - https://prd.eu-ccapi.kia.com:8080 "GET /web/v1/user/authorize?lang=en&cache=reset HTTP/1.1" 200 2441
+2021-06-03 12:10:44,643 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): prd.eu-ccapi.kia.com:8080
+2021-06-03 12:10:45,283 - urllib3.connectionpool - DEBUG - https://prd.eu-ccapi.kia.com:8080 "POST /api/v1/user/language HTTP/1.1" 204 0
+2021-06-03 12:10:45,299 - root - DEBUG - {'ccsp-service-id': 'fdc85c00-0a2f-4c64-bcb4-2cfb1500730a', 'cssp-application-id': '8464b0bf-4932-47b0-90ed-555fef8f143b', 'Content-Type': 'application/json;charset=UTF-8', 'Host': 'prd.eu-ccapi.kia.com:8080', 'Connection': 'keep-alive', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'nl-NL;q=1, en-NL;q=0.9', 'Stamp': '9o3mpjuu/h4vH6cwbgTzPD70J+JaprZSWlyFNmfNg2qhql7gngJHhJp4D0YVSdM=', 'User-Agent': 'UVO_Store/1.5.9 (iPhone; iOS 14.4; Scale/3.00)'}
+2021-06-03 12:10:45,302 - root - DEBUG - {'pushRegId': '0827a4e6c94faa094fe20033ff7fdbbd3a7a789727546f2645a0f547f5db2a58', 'pushType': 'APNS', 'uuid': 'f5f8f7c8-c453-11eb-8534-b827eb40c9e5'}
+2021-06-03 12:10:45,315 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): prd.eu-ccapi.kia.com:8080
+2021-06-03 12:10:45,658 - urllib3.connectionpool - DEBUG - https://prd.eu-ccapi.kia.com:8080 "POST /api/v1/spa/notifications/register HTTP/1.1" 401 138
+2021-06-03 12:10:45,669 - root - ERROR - NOK deviceID. Error: 401{"retCode":"F","resCode":"4017","resMsg":"Invalid request value - Invalid Application Id.","msgId":"62bd4293-3c90-4219-b99b-c98093e2adf2"}
+2021-06-03 12:10:45,675 - root - ERROR - initialisation failed

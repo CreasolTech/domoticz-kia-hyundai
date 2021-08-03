@@ -1,0 +1,8 @@
+Kia UVO and Hyundai Blulink plugin for Domoticz
+
+ChangeLog
+
+2021-08-03 0.1.1
+* Added car speed and tire pressure alert
+* New github repository
+* Default battery state of charge in case of error getting parameters: 50% instead of 0%
